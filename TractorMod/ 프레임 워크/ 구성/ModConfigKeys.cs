@@ -9,7 +9,7 @@ namespace Pathoschild.Stardew.TractorMod.Framework.Config
         ** Accessors
         *********/
         /// <summary>The keys which summon the tractor.</summary>
-        public KeyBinding SummonTractor { get; }
+        public KeyBinding SummonTractor { get; } = VolumeDown;
 
         /// <summary>The keys which return the tractor to its home.</summary>
         public KeyBinding DismissTractor { get; }
